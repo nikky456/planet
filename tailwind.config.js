@@ -7,6 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'custom-gray': '#282B30',
+      },
+      fontFamily: {
+        "abc-monument": ['"ABC Monument Grotesk"', "sans-serif"],
+        "lakonet": ['Lakonet', 'sans-serif']
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

@@ -25,6 +25,20 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+/* styles/fonts.css */
+
+@font-face {
+  font-family: 'Lakonet';
+  src: url('/font/lakonet-lakonet-regular-400.ttf') format('truetype');
+  /* Add more src declarations for different font weights/styles if needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Lakonet', sans-serif;
+}
+
 
 @layer utilities {
   .text-balance {
