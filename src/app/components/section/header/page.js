@@ -13,6 +13,15 @@ export default function ExampleComponent() {
       <div className="font-abc-monument text-[22px] text-gray-500 font-normal leading-custom tracking-tight-custom text-center">
         Explore our Deva-Bots, a New Era of Real-time Interactions
       </div>
+      <div className="mt-4">
+        <Image
+          src="/Frame.png"
+          alt="Frame Image"
+          width={50}
+          height={50}
+          className="w-auto h-auto mx-auto"
+        />
+        </div>
       <div className="flex flex-wrap justify-center gap-x-10 gap-y-4">
         <Card
           name="Jeff Bezos"
@@ -29,7 +38,11 @@ export default function ExampleComponent() {
           nickname="@leonardodevinchi"
           image="/hero3.svg"
         />
-        <Card name="Dua Lipa" nickname="@dualipa" image="./images/hero4.svg" />
+        <Card
+         name="Dua Lipa"
+          nickname="@dualipa" 
+          image="/hero4.png"
+           />
         <Card
           name="Tom Cruise"
           nickname="@tomcruise"
