@@ -49,7 +49,7 @@ const BelowNav = () => {
             GOVERNORS DRIVING
           </div>
           <div>
-            10PLANET'S INNOVATION
+            10PLANET &apos; INNOVATION
           </div>
         </div>
         <div className="flex flex-wrap  justify-center">
